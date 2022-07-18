@@ -1,0 +1,176 @@
+.skillsFlex{
+    display: flex;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    width: 33%
+
+}
+
+body{
+    background-color: #090F1F;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;;
+    color: white;
+}
+
+hr{
+    width: 5%;
+}
+
+.workFlex{
+    margin: 20px;
+    padding: 20px;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom:80px;
+}
+
+button{
+    background-color: #DBB81A;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.imageL img{
+    width: 80%;
+}
+
+.imageL{
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.imageR img{
+    width: 100%;
+}
+
+.imageR{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.text h4{
+    text-align: center;
+}
+
+.text p{
+    margin-bottom: 40px;
+}
+
+.text button{
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px){
+    .project{
+        grid-template-columns: 1fr;}
+}
+
+/*HW 17 below*/
+
+header{
+    background-color: #090F1F;
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+ul{
+    list-style: none;
+    vertical-align: top;
+    width: 50%;
+    justify-content: space-between;
+}
+
+li{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+footer{
+    background-color: #090F1F;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo{
+    width: 23%;
+    padding: 20px;
+    text-align: center;
+}
+
+#image{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+#email{
+    padding: 20px;
+}
+
+#linklogo{
+padding: 20px;
+margin: 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bigButton{
+    align-text: center;
+}
+
+/*Below is the Copy Code*/
+
+.dropdown{
+    display: none;
+}
